@@ -1,0 +1,109 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20/12/2020, 14:27:58
+    Author     : Note
+*/
+* {
+	
+	color:rgb(#F8F8F8);
+	font-weight: 16px;
+	font-size: 18px;
+}
+#menu {
+	overflow: hidden;
+	background: #101010;
+	font-family: fantasy;
+}
+
+#menu ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px;
+	list-style: none;
+	line-height: normal;
+	text-align: 0;
+}
+#menu li {
+	display: inline-block;
+	
+}
+#menu a {
+	display: block;
+	padding: 0px 40px 0px 40px;
+	line-height: 70px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align:center;
+	font-size: 30px;
+	font-weight: 200;
+	color: rgba(255,255,255,0.5);
+	border: none;
+}
+#menu li a:hover, #menu li for a {
+	text-decoration: none;
+	color: rgba(255,255,255,0.8);
+	border:solid;
+	
+	background-color: red;
+
+
+}
+ 
+ body {
+ 	background-color:  #F8F8F8;
+ 	background-size: red;
+ }
+ li{
+ 	border:solid;
+ 	border-color: transparent;
+ }
+ img {
+ 	width: 180px;
+ }
+ .bem {
+ 	width: 640px;
+ }
+ h1{
+ 	font-size: 40px;
+ 	color: red;
+ }
+ h2 {
+ 	font-size: 40px;
+ 	color:red;
+ }
+
+.tabela1 {
+	border:solid;
+	border-width: 20px;
+    
+    border-left: 20px;
+    width: 200px ;
+    padding: 10px;
+    border-color:transparent;
+
+}
+.tabela2 {
+	border:solid;
+   
+    
+    border-color:transparent;
+    padding: 15px;
+
+}
+.tabela3{
+	border:solid;
+	border-width: 20px;
+    border-right: 20px;
+    border-left: 20px;
+    border-color:transparent;
+    padding: 10px;
+
+
+}
+td :hover, td  for p {
+	color: blue;
+}
+
